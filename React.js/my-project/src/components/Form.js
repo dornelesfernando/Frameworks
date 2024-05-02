@@ -3,7 +3,7 @@ import { useState } from 'react'
 function Form() {
     function cadastrarUsuario(e){
         e.preventDefault();
-        console.log(`Usuáio ${name} foi cadastrado.`);
+        console.log(`Usuáio ${name} foi cadastrado. ${password}`);
     }
 
     const [name, setName] = useState()
