@@ -1,5 +1,3 @@
-// Message não está funcionando
-
 import { useState, useEffect } from 'react'
 
 import styles from './Message.module.css'
