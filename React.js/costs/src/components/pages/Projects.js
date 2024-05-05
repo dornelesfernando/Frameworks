@@ -9,6 +9,9 @@ import styles from './Projects.module.css'
 function Projects(){
     const location = useLocation()
     let message = ''
+    // console.log(location);
+    // console.log(location.state);
+    console.log(location.state.message);
     if(location.state){
         message = location.state.message
     }
