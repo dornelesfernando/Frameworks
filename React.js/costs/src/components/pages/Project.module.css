@@ -28,7 +28,7 @@
   flex-wrap: wrap;
 }
 
-/*.btn {
+.btn {
     background-color: #222;
     color: #fff;
     padding: 0.5em 1em;
@@ -45,5 +45,5 @@
   
 .form {
     width: 100%;
-}*/
+}
 

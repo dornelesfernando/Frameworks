@@ -2,19 +2,19 @@
   "projects": [
     {
       "id": "e976",
-      "name": "teste",
-      "budget": "100000",
+      "name": "Teste",
+      "budget": "900",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": []
     },
     {
       "id": "d1bd",
-      "name": "Teste 2",
-      "budget": "12345",
+      "name": "Abacatideros",
+      "budget": "2200",
       "category": {
         "id": "3",
         "name": "Design"
