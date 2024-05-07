@@ -12,6 +12,12 @@ function Footer(){
             <p className={styles.copy_right}>
                 <span>Costs</span> &copy; 2024
             </p>
+            <div className={styles.authorship}>
+                <p>Reproduzido de:</p>
+                <a target="_blank" rel="noopener noreferrer" href='https://www.youtube.com/@MatheusBattisti'><span className={styles.font}>Hora de codar</span></a>
+                <p>por:</p>
+                <a target="_blank" rel="noopener noreferrer" href='https://github.com/dornelesfernando'><span className={styles.creator}>Dorneles, Fernando</span></a>
+            </div>
         </footer>
     )
 }

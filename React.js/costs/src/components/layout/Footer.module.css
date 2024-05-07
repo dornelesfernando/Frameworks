@@ -24,7 +24,7 @@
     cursor: pointer;
 }
 
-.copy_right {
+.copy_right{
     margin-top: 2em;
 }
 
@@ -33,3 +33,35 @@
     color: #ffbb33;
 }
 
+.authorship {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    font-size: 20px;
+    gap: 0.5em;
+} 
+
+.authorship a{
+    text-decoration: none;
+}
+
+.font {
+    animation: bg 5s infinite linear;
+    background: -webkit-linear-gradient(90deg, #0000FF 0%, #ADD8E6 50%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1px solid #FFF;
+}
+
+.creator {
+    animation: bg 10s infinite linear;
+    background: -webkit-linear-gradient(90deg, #0000FF 0%, #ADD8E6 50%, #FFFFFF 500%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1px solid #FFF;
+}
+
+@keyframes bg{
+    100%{filter: hue-rotate(360deg);}
+}
